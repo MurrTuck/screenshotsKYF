@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 
 import { IconButton, Box } from '@material-ui/core';
 
-import projectLogo from '../../assets/images/react.svg';
+import projectLogo from '../../assets/images/policeBadge.png';
 
 const HeaderLogo = () => {
   return (
@@ -26,7 +26,7 @@ const HeaderLogo = () => {
               />
             </IconButton>
           </Link>
-          <Box className="header-logo-text">Carolina</Box>
+          <Box className="header-logo-text">Know Your Force</Box>
         </Box>
       </div>
     </Fragment>

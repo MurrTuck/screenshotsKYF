@@ -6,7 +6,7 @@ export default function LivePreviewExample() {
   const [completed, setCompleted] = React.useState(0);
   const [buffer, setBuffer] = React.useState(10);
 
-  const progress = React.useRef(() => {});
+  const progress = React.useRef(() => { });
   React.useEffect(() => {
     progress.current = () => {
       if (completed > 100) {

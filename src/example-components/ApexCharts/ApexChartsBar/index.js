@@ -13,12 +13,12 @@ export default function LivePreviewExample() {
       }
     },
     xaxis: {
-      categories: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
     }
   };
   const series = [
     {
-      data: [30, 40, 25, 50, 49, 21, 70, 51]
+      data: [30, 40, 25, 50, 49, 21, 70, 51, 44, 57, 87, 27]
     }
   ];
 

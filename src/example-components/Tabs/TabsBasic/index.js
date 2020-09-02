@@ -47,19 +47,19 @@ export default function LivePreviewExample() {
           value={value}
           onChange={handleChange}
           aria-label="simple tabs example">
-          <Tab label="Item One" />
-          <Tab label="Item Two" />
-          <Tab label="Item Three" />
+          <Tab label="Police Department" />
+          <Tab label="Fire Department" />
+          <Tab label="EMS Crew" />
         </Tabs>
       </AppBar>
       <TabPanel value={value} index={0}>
-        Item One
+        Police Department
       </TabPanel>
       <TabPanel value={value} index={1}>
-        Item Two
+        Fire Department
       </TabPanel>
       <TabPanel value={value} index={2}>
-        Item Three
+        EMS Crew
       </TabPanel>
     </div>
   );

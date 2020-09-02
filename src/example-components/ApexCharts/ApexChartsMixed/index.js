@@ -20,7 +20,7 @@ export default function LivePreviewExample() {
       width: [4, 0, 0]
     },
     xaxis: {
-      categories: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sept', 'Oct', 'Nov', 'Dec']
     },
     markers: {
       size: 6,
@@ -40,18 +40,18 @@ export default function LivePreviewExample() {
 
   const seriesMixedChart = [
     {
-      name: 'series-1',
+      name: 'Call Volume',
       type: 'line',
       data: [30, 40, 25, 50, 49, 21, 70, 51]
     },
     {
-      name: 'series-2',
-      type: 'column',
+      name: 'Response Rate',
+      type: 'line',
       data: [23, 12, 54, 61, 32, 56, 81, 19]
     },
     {
-      name: 'series-3',
-      type: 'column',
+      name: 'Success Rate',
+      type: 'line',
       data: [62, 12, 45, 55, 76, 41, 23, 43]
     }
   ];

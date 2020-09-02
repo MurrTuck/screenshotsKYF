@@ -16,7 +16,7 @@ export default function LivePreviewExample() {
     <Fragment>
       <Card className="card-box mb-4">
         <div className="card-header pr-2">
-          <div className="card-header--title">Employees status</div>
+          <div className="card-header--title">Police Officer Status</div>
           <div className="card-header--actions">
             <Tooltip arrow title="Refresh">
               <IconButton size="small" color="primary" className="mr-3">
@@ -30,16 +30,16 @@ export default function LivePreviewExample() {
             <table className="table table-borderless table-hover text-nowrap mb-0">
               <thead>
                 <tr>
-                  <th>#</th>
+                  <th>Badge #</th>
                   <th className="text-left">Name</th>
                   <th className="text-center">Status</th>
-                  <th className="text-center">Progress</th>
-                  <th className="text-center">Actions</th>
+                  <th className="text-center">Training Progress</th>
+                  <th className="text-center">Actions Due</th>
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>12</td>
+                  <td>3412</td>
                   <td>
                     <div>
                       <a
@@ -47,18 +47,18 @@ export default function LivePreviewExample() {
                         onClick={e => e.preventDefault()}
                         className="font-weight-bold text-black"
                         title="...">
-                        Shanelle Wynn
+                        Jordan Spencer
                       </a>
                       <span className="text-black-50 d-block">
-                        UI Engineer, Apple Inc.
+                        Sheriff
                       </span>
                     </div>
                   </td>
                   <td className="text-center">
-                    <div className="badge badge-warning px-4">Pending</div>
+                    <div className="px-4 badge badge-success">completed</div>
                   </td>
                   <td>
-                    <LinearProgress value={55} color="primary" />
+                    <LinearProgress variant="determinate" value={100} color="primary" />
                   </td>
                   <td className="text-center">
                     <Tooltip arrow title="View Details">
@@ -72,7 +72,7 @@ export default function LivePreviewExample() {
                   </td>
                 </tr>
                 <tr>
-                  <td>12</td>
+                  <td>4491</td>
                   <td>
                     <div>
                       <a
@@ -80,10 +80,10 @@ export default function LivePreviewExample() {
                         onClick={e => e.preventDefault()}
                         className="font-weight-bold text-black"
                         title="...">
-                        Shanelle Wynn
+                        Brady Schmidt
                       </a>
                       <span className="text-black-50 d-block">
-                        UI Engineer, Apple Inc.
+                        SWAT Sniper
                       </span>
                     </div>
                   </td>
@@ -91,7 +91,7 @@ export default function LivePreviewExample() {
                     <div className="badge badge-warning px-4">Pending</div>
                   </td>
                   <td>
-                    <LinearProgress value={55} color="primary" />
+                    <LinearProgress variant="determinate" value={85} color="primary" />
                   </td>
                   <td className="text-center">
                     <Tooltip arrow title="View Details">
@@ -105,7 +105,7 @@ export default function LivePreviewExample() {
                   </td>
                 </tr>
                 <tr>
-                  <td>12</td>
+                  <td>4427</td>
                   <td>
                     <div>
                       <a
@@ -113,10 +113,10 @@ export default function LivePreviewExample() {
                         onClick={e => e.preventDefault()}
                         className="font-weight-bold text-black"
                         title="...">
-                        Regan Norris
+                        Murray Tucker
                       </a>
                       <span className="text-black-50 d-block">
-                        Senior Project Manager
+                        Flexin' Mall Cop
                       </span>
                     </div>
                   </td>
@@ -124,7 +124,7 @@ export default function LivePreviewExample() {
                     <div className="badge badge-danger px-4">Failed</div>
                   </td>
                   <td>
-                    <LinearProgress value={67} color="primary" />
+                    <LinearProgress variant="determinate" value={44} color="primary" />
                   </td>
                   <td className="text-center">
                     <Tooltip arrow title="View Details">
@@ -138,7 +138,7 @@ export default function LivePreviewExample() {
                   </td>
                 </tr>
                 <tr>
-                  <td>33</td>
+                  <td>3323</td>
                   <td>
                     <div>
                       <a
@@ -146,10 +146,10 @@ export default function LivePreviewExample() {
                         onClick={e => e.preventDefault()}
                         className="font-weight-bold text-black"
                         title="...">
-                        Beck Simpson
+                        Garrett Nordstrom
                       </a>
                       <span className="text-black-50 d-block">
-                        Frontend Developer
+                        Tank Driver
                       </span>
                     </div>
                   </td>
@@ -157,7 +157,7 @@ export default function LivePreviewExample() {
                     <div className="px-4 badge badge-success">Completed</div>
                   </td>
                   <td>
-                    <LinearProgress value={39} color="primary" />
+                    <LinearProgress variant="determinate" value={100} color="primary" />
                   </td>
                   <td className="text-center">
                     <Tooltip arrow title="View Details">

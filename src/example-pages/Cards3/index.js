@@ -18,11 +18,11 @@ export default function Cards3() {
   return (
     <Fragment>
       <PageTitle
-        titleHeading="Cards examples 3"
+        titleHeading="Card Component"
         titleDescription="Wide selection of cards with multiple styles, borders, actions and hover effects."
       />
 
-      <ExampleWrapperSeamless sectionHeading="Cards 1">
+      <ExampleWrapperSeamless sectionHeading="Picture Cards">
         <Cards1Examples1 />
       </ExampleWrapperSeamless>
       <ExampleWrapperSeamless sectionHeading="Cards 2">

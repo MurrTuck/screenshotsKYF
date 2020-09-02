@@ -37,7 +37,7 @@ export default function LivePreviewExample() {
                 />
               </div>
             </div>
-            <div className="text-black-50 pt-2">Sales target</div>
+            <div className="text-black-50 pt-2">Inventory target</div>
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>
@@ -54,7 +54,7 @@ export default function LivePreviewExample() {
                 />
               </div>
             </div>
-            <div className="text-white-50 pt-2">Income target</div>
+            <div className="text-white-50 pt-2">New Officer target</div>
           </Card>
         </Grid>
         <Grid item xs={12} sm={6} lg={3}>

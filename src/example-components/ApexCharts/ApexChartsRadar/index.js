@@ -4,7 +4,7 @@ import Chart from 'react-apexcharts';
 
 export default function LivePreviewExample() {
   const options = {
-    labels: ['A', 'B', 'C', 'D', 'E']
+    labels: ['Officer', 'Lieutenant', 'Detective', 'Admin', 'Crisis']
   };
   const series = [44, 55, 41, 17, 15];
 

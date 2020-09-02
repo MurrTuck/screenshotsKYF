@@ -5,16 +5,16 @@ import Chart from 'react-apexcharts';
 export default function LivePreviewExample() {
   const options = {
     xaxis: {
-      categories: ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat', 'Sun']
+      categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec']
     }
   };
   const series = [
     {
-      name: 'series-1',
+      name: 'Call Volume',
       data: [30, 40, 25, 50, 49, 21, 70, 51]
     },
     {
-      name: 'series-2',
+      name: 'Call Response',
       data: [23, 12, 54, 61, 32, 56, 81, 19]
     }
   ];

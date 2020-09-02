@@ -17,13 +17,12 @@ import {
 
 import AddCircleTwoToneIcon from '@material-ui/icons/AddCircleTwoTone';
 
-import avatar1 from '../../../assets/images/avatars/avatar1.jpg';
-import avatar2 from '../../../assets/images/avatars/avatar2.jpg';
-import avatar3 from '../../../assets/images/avatars/avatar3.jpg';
-import avatar4 from '../../../assets/images/avatars/avatar4.jpg';
-import avatar5 from '../../../assets/images/avatars/avatar5.jpg';
-import avatar6 from '../../../assets/images/avatars/avatar6.jpg';
-import avatar7 from '../../../assets/images/avatars/avatar7.jpg';
+
+import avatar8 from '../../../assets/images/avatars/avatar8.jpg';
+import avatar9 from '../../../assets/images/avatars/avatar9.jpg';
+import avatar10 from '../../../assets/images/avatars/avatar10.jpg';
+import avatar11 from '../../../assets/images/avatars/avatar11.jpg';
+import avatar12 from '../../../assets/images/avatars/avatar12.jpg';
 
 import Chart from 'react-apexcharts';
 export default function LivePreviewExample() {
@@ -62,7 +61,7 @@ export default function LivePreviewExample() {
   };
   const chart53Data = [
     {
-      name: 'Sales',
+      name: 'Monthly Spending',
       data: [32, 52, 45, 32, 54, 56, 28, 25, 36, 62]
     }
   ];
@@ -71,10 +70,10 @@ export default function LivePreviewExample() {
       <Card className="card-box mb-4 p-3 text-center">
         <div className="my-3">
           <h6 className="font-weight-bold font-size-lg mb-1 text-black">
-            Revenue progress
+            Chain of Command
           </h6>
           <p className="text-black-50 mb-0">
-            Our company revenues, split by progress.
+            Learn More About Your Local Police Officers
           </p>
         </div>
         <div className="d-flex flex-row flex-wrap justify-content-center">
@@ -83,11 +82,11 @@ export default function LivePreviewExample() {
             <div className="avatar-icon-wrapper rounded-circle d-80 mx-auto">
               <div className="d-block p-0 avatar-icon-wrapper rounded-circle m-0">
                 <div className="rounded-circle overflow-hidden">
-                  <img alt="..." className="img-fluid" src={avatar1} />
+                  <img alt="..." className="img-fluid" src={avatar9} />
                 </div>
               </div>
             </div>
-            <div className="font-weight-bold mt-1">Marion Devine</div>
+            <div className="font-weight-bold mt-1">Garrett Nordstrom</div>
             <div className="font-weight-bold font-size-sm text-black-50">
               <FontAwesomeIcon
                 icon={['fas', 'star']}
@@ -95,7 +94,7 @@ export default function LivePreviewExample() {
               />
               <span>4.8</span>
               <span className="px-1">|</span>
-              34 Jobs
+              Community Love
             </div>
           </div>
           <div className="position-relative px-5 py-3">
@@ -103,11 +102,11 @@ export default function LivePreviewExample() {
             <div className="avatar-icon-wrapper rounded-circle d-80 mx-auto">
               <div className="d-block p-0 avatar-icon-wrapper rounded-circle m-0">
                 <div className="rounded-circle overflow-hidden">
-                  <img alt="..." className="img-fluid" src={avatar2} />
+                  <img alt="..." className="img-fluid" src={avatar10} />
                 </div>
               </div>
             </div>
-            <div className="font-weight-bold mt-1">Monique Hanna</div>
+            <div className="font-weight-bold mt-1">Brady Schmidt</div>
             <div className="font-weight-bold font-size-sm text-black-50">
               <FontAwesomeIcon
                 icon={['fas', 'star']}
@@ -115,7 +114,7 @@ export default function LivePreviewExample() {
               />
               <span>5.0</span>
               <span className="px-1">|</span>
-              81 Jobs
+              Community Love
             </div>
           </div>
           <div className="position-relative px-5 py-3">
@@ -123,19 +122,19 @@ export default function LivePreviewExample() {
             <div className="avatar-icon-wrapper rounded-circle d-80 mx-auto">
               <div className="d-block p-0 avatar-icon-wrapper rounded-circle m-0">
                 <div className="rounded-circle overflow-hidden">
-                  <img alt="..." className="img-fluid" src={avatar3} />
+                  <img alt="..." className="img-fluid" src={avatar11} />
                 </div>
               </div>
             </div>
-            <div className="font-weight-bold mt-1">Celine Goulding</div>
+            <div className="font-weight-bold mt-1">Jordan Spencer</div>
             <div className="font-weight-bold font-size-sm text-black-50">
               <FontAwesomeIcon
                 icon={['fas', 'star']}
                 className="text-warning mr-1"
               />
-              <span>2.9</span>
+              <span>4.9</span>
               <span className="px-1">|</span>
-              52 Jobs
+              Community Love
             </div>
           </div>
           <div className="position-relative px-5 py-3">
@@ -143,31 +142,11 @@ export default function LivePreviewExample() {
             <div className="avatar-icon-wrapper rounded-circle d-80 mx-auto">
               <div className="d-block p-0 avatar-icon-wrapper rounded-circle m-0">
                 <div className="rounded-circle overflow-hidden">
-                  <img alt="..." className="img-fluid" src={avatar4} />
+                  <img alt="..." className="img-fluid" src={avatar8} />
                 </div>
               </div>
             </div>
-            <div className="font-weight-bold mt-1">Anabel Mayo</div>
-            <div className="font-weight-bold font-size-sm text-black-50">
-              <FontAwesomeIcon
-                icon={['fas', 'star']}
-                className="text-warning mr-1"
-              />
-              <span>4.6</span>
-              <span className="px-1">|</span>
-              76 Jobs
-            </div>
-          </div>
-          <div className="position-relative px-5 py-3">
-            <div className="divider-v divider-v-lg" />
-            <div className="avatar-icon-wrapper rounded-circle d-80 mx-auto">
-              <div className="d-block p-0 avatar-icon-wrapper rounded-circle m-0">
-                <div className="rounded-circle overflow-hidden">
-                  <img alt="..." className="img-fluid" src={avatar5} />
-                </div>
-              </div>
-            </div>
-            <div className="font-weight-bold mt-1">Rueben Hays</div>
+            <div className="font-weight-bold mt-1">Scott Lowry</div>
             <div className="font-weight-bold font-size-sm text-black-50">
               <FontAwesomeIcon
                 icon={['fas', 'star']}
@@ -175,7 +154,7 @@ export default function LivePreviewExample() {
               />
               <span>4.8</span>
               <span className="px-1">|</span>
-              76 Jobs
+              Community Love
             </div>
           </div>
           <div className="position-relative px-5 py-3">
@@ -183,38 +162,19 @@ export default function LivePreviewExample() {
             <div className="avatar-icon-wrapper rounded-circle d-80 mx-auto">
               <div className="d-block p-0 avatar-icon-wrapper rounded-circle m-0">
                 <div className="rounded-circle overflow-hidden">
-                  <img alt="..." className="img-fluid" src={avatar6} />
+                  <img alt="..." className="img-fluid" src={avatar12} />
                 </div>
               </div>
             </div>
-            <div className="font-weight-bold mt-1">Kush Malone</div>
+            <div className="font-weight-bold mt-1">Murray Tucker</div>
             <div className="font-weight-bold font-size-sm text-black-50">
               <FontAwesomeIcon
                 icon={['fas', 'star']}
                 className="text-warning mr-1"
               />
-              <span>3.5</span>
+              <span>4.7</span>
               <span className="px-1">|</span>
-              34 Jobs
-            </div>
-          </div>
-          <div className="position-relative px-5 py-3">
-            <div className="avatar-icon-wrapper rounded-circle d-80 mx-auto">
-              <div className="d-block p-0 avatar-icon-wrapper rounded-circle m-0">
-                <div className="rounded-circle overflow-hidden">
-                  <img alt="..." className="img-fluid" src={avatar7} />
-                </div>
-              </div>
-            </div>
-            <div className="font-weight-bold mt-1">Haydn Porter</div>
-            <div className="font-weight-bold font-size-sm text-black-50">
-              <FontAwesomeIcon
-                icon={['fas', 'star']}
-                className="text-warning mr-1"
-              />
-              <span>4.5</span>
-              <span className="px-1">|</span>
-              23 Jobs
+              Community Love
             </div>
           </div>
         </div>
@@ -224,8 +184,8 @@ export default function LivePreviewExample() {
           <Card className="card-box mb-4">
             <div className="card-header">
               <div className="font-size-lg d-block text-truncate">
-                <span className="text-black-50 pr-2">#32</span> Global
-                competition
+                <span className="text-black-50 pr-2">#32</span> Police vs. Firefighters Charity
+                Competition
               </div>
               <div className="ml-auto d-flex align-items-center align-content-center">
                 <Tooltip arrow title="View all participants">
@@ -239,23 +199,23 @@ export default function LivePreviewExample() {
               <Grid container spacing={4}>
                 <Grid item xs={12} md={4}>
                   <div className="text-center">
-                    <span className="text-black-50 d-block">Users</span>
-                    <b className="font-size-xxl">2,345</b>
+                    <span className="text-black-50 d-block">PD Raised</span>
+                    <b className="font-size-xxl">$3,345</b>
                   </div>
                 </Grid>
                 <Grid item xs={12} md={4}>
                   <div className="text-center">
-                    <span className="text-black-50 d-block">Revenue</span>
-                    <b className="font-size-xxl">$9,693</b>
+                    <span className="text-black-50 d-block">FD Raised</span>
+                    <b className="font-size-xxl text-success">$4,771</b>
                   </div>
                 </Grid>
                 <Grid item xs={12} md={4} className="align-box-row">
                   <div className="w-100 mt-3 mt-md-0">
                     <div className="mb-1">
                       <span className="text-black-50 pr-1">Progress:</span>
-                      <span className="text-danger">-12</span>
+                      <span className="text-danger">-12 Points</span>
                     </div>
-                    <LinearProgress variant="determinate" value={67} />
+                    <LinearProgress variant="determinate" value={33} />
                   </div>
                 </Grid>
               </Grid>
@@ -264,8 +224,7 @@ export default function LivePreviewExample() {
           <Card className="card-box mb-4">
             <div className="card-header">
               <div className="font-size-lg d-block text-truncate">
-                <span className="text-black-50 pr-2">#33</span> International
-                Event
+                <span className="text-black-50 pr-2">#33</span> Police Press Conference
               </div>
               <div className="ml-auto d-flex align-items-center align-content-center">
                 <Tooltip arrow title="View all participants">
@@ -279,21 +238,21 @@ export default function LivePreviewExample() {
               <Grid container spacing={4}>
                 <Grid item xs={12} md={4}>
                   <div className="text-center">
-                    <span className="text-black-50 d-block">Users</span>
-                    <b className="font-size-xxl">2,345</b>
+                    <span className="text-black-50 d-block">Views</span>
+                    <b className="font-size-xxl">21,345</b>
                   </div>
                 </Grid>
                 <Grid item xs={12} md={4}>
                   <div className="text-center">
-                    <span className="text-black-50 d-block">Revenue</span>
-                    <b className="font-size-xxl">$9,693</b>
+                    <span className="text-black-50 d-block">Likes</span>
+                    <b className="font-size-xxl">10,128</b>
                   </div>
                 </Grid>
                 <Grid item xs={12} md={4} className="align-box-row">
                   <div className="w-100 mt-3 mt-md-0">
                     <div className="mb-1">
                       <span className="text-black-50 pr-1">Progress:</span>
-                      <span className="text-danger">-12</span>
+                      <span className="text-success">+44</span>
                     </div>
                     <LinearProgress variant="determinate" value={67} />
                   </div>
@@ -305,7 +264,7 @@ export default function LivePreviewExample() {
                 <Divider />
                 <div className="card-header rounded-0 bg-light">
                   <div className="font-size-lg d-block text-truncate">
-                    <span className="text-black-50 pr-2">#34</span> Hackathon
+                    <span className="text-black-50 pr-2">#34</span> Criminals Thrown into the Slammer
                   </div>
                   <div className="ml-auto d-flex align-items-center align-content-center">
                     <Tooltip arrow title="View all participants">
@@ -321,65 +280,23 @@ export default function LivePreviewExample() {
                   <Grid container spacing={4}>
                     <Grid item xs={12} md={4}>
                       <div className="text-center">
-                        <span className="text-black-50 d-block">Users</span>
-                        <b className="font-size-xxl">2,345</b>
+                        <span className="text-black-50 d-block">Crimes Reported</span>
+                        <b className="font-size-xxl">201</b>
                       </div>
                     </Grid>
                     <Grid item xs={12} md={4}>
                       <div className="text-center">
-                        <span className="text-black-50 d-block">Revenue</span>
-                        <b className="font-size-xxl">$9,693</b>
+                        <span className="text-black-50 d-block">Got'em</span>
+                        <b className="font-size-xxl">153</b>
                       </div>
                     </Grid>
                     <Grid item xs={12} md={4} className="align-box-row">
                       <div className="w-100 mt-3 mt-md-0">
                         <div className="mb-1">
                           <span className="text-black-50 pr-1">Progress:</span>
-                          <span className="text-danger">-12</span>
+                          <span className="text-info">+12</span>
                         </div>
-                        <LinearProgress value={43} />
-                      </div>
-                    </Grid>
-                  </Grid>
-                </CardContent>
-              </ListItem>
-              <ListItem className="d-block p-0">
-                <div className="card-header">
-                  <div className="font-size-lg d-block text-truncate">
-                    <span className="text-black-50 pr-2">#33</span> Gaming
-                    center
-                  </div>
-                  <div className="ml-auto d-flex align-items-center align-content-center">
-                    <Tooltip arrow title="View all participants">
-                      <Button
-                        color="primary"
-                        className="font-size-lg ml-3 d-40 p-0 rounded-circle border-0">
-                        <AddCircleTwoToneIcon />
-                      </Button>
-                    </Tooltip>
-                  </div>
-                </div>
-                <CardContent className="p-3">
-                  <Grid container spacing={4}>
-                    <Grid item xs={12} md={4}>
-                      <div className="text-center">
-                        <span className="text-black-50 d-block">Users</span>
-                        <b className="font-size-xxl">1,466</b>
-                      </div>
-                    </Grid>
-                    <Grid item xs={12} md={4}>
-                      <div className="text-center">
-                        <span className="text-black-50 d-block">Revenue</span>
-                        <b className="font-size-xxl text-danger">$6,465</b>
-                      </div>
-                    </Grid>
-                    <Grid item xs={12} md={4} className="align-box-row">
-                      <div className="w-100 mt-3 mt-md-0">
-                        <div className="mb-1">
-                          <span className="text-black-50">Progress:</span>
-                          <span className="text-warning">-5</span>
-                        </div>
-                        <LinearProgress value={72} />
+                        <LinearProgress variant="determinate" value={79} />
                       </div>
                     </Grid>
                   </Grid>
@@ -393,7 +310,7 @@ export default function LivePreviewExample() {
             <div className="px-4 px-xl-5 pb-1">
               <div className="card-header d-block">
                 <span className="text-uppercase py-3 py-xl-4 text-black d-block text-center font-weight-bold font-size-lg">
-                  Inventory
+                  Police Supply Inventory
                 </span>
               </div>
               <CardContent className="p-0">
@@ -402,11 +319,11 @@ export default function LivePreviewExample() {
                     <Grid item xs={12} sm={6}>
                       <div className="text-center">
                         <FontAwesomeIcon
-                          icon={['fas', 'lemon']}
+                          icon={['fas', 'car']}
                           className="font-size-xxl text-warning my-3"
                         />
-                        <span className="text-black-50 d-block">Users</span>
-                        <b className="font-size-xxl">2,345</b>
+                        <span className="text-black-50 d-block">Budget</span>
+                        <b className="font-size-xxl">$22,982</b>
                       </div>
                     </Grid>
                     <Grid item xs={12} sm={6}>
@@ -415,8 +332,8 @@ export default function LivePreviewExample() {
                           icon={['far', 'user']}
                           className="font-size-xxl text-success my-3"
                         />
-                        <span className="text-black-50 d-block">Revenue</span>
-                        <b className="font-size-xxl">$9,693</b>
+                        <span className="text-black-50 d-block">Total Spent</span>
+                        <b className="font-size-xxl">$9,349</b>
                       </div>
                     </Grid>
                   </Grid>
@@ -468,7 +385,7 @@ export default function LivePreviewExample() {
               </div>
               <div className="card-header border-0 d-block">
                 <span className="text-uppercase pb-1 pt-1 text-black d-block text-center font-weight-bold font-size-lg">
-                  Charts
+                  Monthly Spending
                 </span>
               </div>
               <Chart

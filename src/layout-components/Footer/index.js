@@ -2,7 +2,12 @@ import React, { Fragment } from 'react';
 
 import clsx from 'clsx';
 
-import { Paper, List, ListItem, ListItemText } from '@material-ui/core';
+import {
+  Paper
+  // List, 
+  // ListItem, 
+  // ListItemText
+} from '@material-ui/core';
 
 import { connect } from 'react-redux';
 
@@ -17,7 +22,8 @@ const Footer = props => {
         })}>
         <div className="app-footer--inner">
           <div className="app-footer--first">
-            <List dense className="d-flex align-items-center">
+            <span>Don't Hate, Communicate!</span>
+            {/* <List dense className="d-flex align-items-center">
               <ListItem
                 className="rounded-sm text-nowrap"
                 button
@@ -36,13 +42,13 @@ const Footer = props => {
                 rel="noopener">
                 <ListItemText primary="View PRO Version" />
               </ListItem>
-            </List>
+            </List> */}
           </div>
           <div className="app-footer--second">
-            <span>Carolina React Admin Dashboard with Material-UI Free</span> ©
-            2020 - crafted with <span className="text-danger px-1">❤</span> by{' '}
-            <a href="https://uifort.com" title="UiFort.com">
-              UiFort.com
+            <span>Know Your Force</span> ©
+            2020 - crafted with nothing but <span className="text-danger px-1">❤</span> for our police by{' '}
+            <a href="https://knowyourforce.com" title="KnowYourForce.com">
+              KnowYourForce.com
             </a>
           </div>
         </div>

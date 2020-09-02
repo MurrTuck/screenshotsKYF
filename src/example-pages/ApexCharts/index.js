@@ -23,6 +23,9 @@ export default function ApexCharts() {
 
       <Grid container spacing={4}>
         <Grid item xs={12} md={6}>
+          <ExampleWrapperSimple sectionHeading="Radar">
+            <ApexChartsRadar />
+          </ExampleWrapperSimple>
           <ExampleWrapperSimple sectionHeading="Area">
             <ApexChartsArea />
           </ExampleWrapperSimple>
@@ -32,11 +35,11 @@ export default function ApexCharts() {
           <ExampleWrapperSimple sectionHeading="Line">
             <ApexChartsLine />
           </ExampleWrapperSimple>
-          <ExampleWrapperSimple sectionHeading="Radar">
-            <ApexChartsRadar />
-          </ExampleWrapperSimple>
         </Grid>
         <Grid item xs={12} md={6}>
+          <ExampleWrapperSimple sectionHeading="Radial bar">
+            <ApexChartsRadialbar />
+          </ExampleWrapperSimple>
           <ExampleWrapperSimple sectionHeading="Bar">
             <ApexChartsBar />
           </ExampleWrapperSimple>
@@ -45,9 +48,6 @@ export default function ApexCharts() {
           </ExampleWrapperSimple>
           <ExampleWrapperSimple sectionHeading="Mixed">
             <ApexChartsMixed />
-          </ExampleWrapperSimple>
-          <ExampleWrapperSimple sectionHeading="Radial bar">
-            <ApexChartsRadialbar />
           </ExampleWrapperSimple>
         </Grid>
       </Grid>

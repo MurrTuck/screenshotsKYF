@@ -13,7 +13,7 @@ import {
   Divider
 } from '@material-ui/core';
 
-import avatar5 from '../../assets/images/avatars/avatar5.jpg';
+import avatar5 from '../../assets/images/avatars/avatar8.jpg';
 export default function HeaderUserbox() {
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -35,8 +35,8 @@ export default function HeaderUserbox() {
           <Avatar sizes="44" alt="Emma Taylor" src={avatar5} />
         </Box>
         <div className="d-none d-xl-block pl-3">
-          <div className="font-weight-bold pt-2 line-height-1">Ryan Kent</div>
-          <span className="text-white-50">Senior React Developer</span>
+          <div className="font-weight-bold pt-2 line-height-1">Scott Lowry</div>
+          <span className="text-white-50">President</span>
         </div>
         <span className="pl-1 pl-xl-3">
           <FontAwesomeIcon icon={['fas', 'angle-down']} className="opacity-5" />
@@ -65,10 +65,10 @@ export default function HeaderUserbox() {
             </Box>
             <div className="pl-3  pr-3">
               <div className="font-weight-bold text-center pt-2 line-height-1">
-                Ryan Kent
+                Scott Lowry
               </div>
               <span className="text-black-50 text-center">
-                Senior React Developer
+                President
               </span>
             </div>
             <Divider className="w-100 mt-2" />

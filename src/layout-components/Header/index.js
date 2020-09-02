@@ -8,7 +8,7 @@ import {
   IconButton,
   AppBar,
   Box,
-  Button,
+  // Button,
   Tooltip
 } from '@material-ui/core';
 
@@ -60,13 +60,13 @@ const Header = props => {
                 </IconButton>
               </Link>
               <Hidden smDown>
-                <Box className="app-logo-text">Carolina</Box>
+                <Box className="app-logo-text">Know Your Force</Box>
               </Hidden>
             </Box>
           </Hidden>
           <Hidden mdDown>
             <Box className="d-flex align-items-center">
-              <Button
+              {/* <Button
                 href="https://themes.material-ui.com/themes/carolina-react-admin-dashboard-free"
                 rel="noopener"
                 target="_blank"
@@ -75,8 +75,8 @@ const Header = props => {
                 color="default"
                 className="mr-3">
                 Download now
-              </Button>
-              <Button
+              </Button> */}
+              {/* <Button
                 href="https://themes.material-ui.com/themes/carolina-react-admin-dashboard-pro"
                 rel="noopener"
                 target="_blank"
@@ -84,7 +84,7 @@ const Header = props => {
                 variant="contained"
                 color="primary">
                 View PRO Version
-              </Button>
+              </Button> */}
             </Box>
           </Hidden>
           <Box className="d-flex align-items-center">
@@ -98,8 +98,8 @@ const Header = props => {
                   {sidebarToggleMobile ? (
                     <MenuOpenRoundedIcon />
                   ) : (
-                    <MenuRoundedIcon />
-                  )}
+                      <MenuRoundedIcon />
+                    )}
                 </IconButton>
               </Tooltip>
             </Box>

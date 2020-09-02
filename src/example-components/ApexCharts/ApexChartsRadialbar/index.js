@@ -3,7 +3,7 @@ import React, { Fragment } from 'react';
 import Chart from 'react-apexcharts';
 
 export default function LivePreviewExample() {
-  const series = [44, 55, 67, 83];
+  const series = [44, 55, 67, 83, 39, 73];
   const options = {
     chart: {
       height: 350,
@@ -22,14 +22,14 @@ export default function LivePreviewExample() {
           total: {
             show: true,
             label: 'Total',
-            formatter: function() {
+            formatter: function () {
               return 249;
             }
           }
         }
       }
     },
-    labels: ['Apples', 'Oranges', 'Bananas', 'Berries']
+    labels: ['Reporting', 'Tactics', 'Situational', 'Crisis', 'Scene', 'Weapons']
   };
 
   return (

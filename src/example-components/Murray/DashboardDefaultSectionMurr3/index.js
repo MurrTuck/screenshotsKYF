@@ -24,7 +24,7 @@ export default function LivePreviewExample() {
     return (
         <Fragment>
             <Grid container spacing={4}>
-                <Grid item xs={12} lg={7}>
+                <Grid item xs={12} sm={6}>
                     <Card className="card-box mb-4">
                         <div className="card-header">
                             <div className="font-size-lg d-block text-truncate">
